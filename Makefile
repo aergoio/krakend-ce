@@ -6,7 +6,7 @@
 
 BIN_NAME :=krakend
 OS := $(shell uname | tr '[:upper:]' '[:lower:]')
-VERSION := 1.1.1
+VERSION := 1.1.2
 PKGNAME := krakend
 LICENSE := Apache 2.0
 VENDOR=
@@ -61,7 +61,7 @@ docker_build:
 	docker run --rm -it -v "${PWD}:/app" -w /app golang:${GOLANG_VERSION} make build
 
 krakend_docker: docker_build
-	docker build -t devopsfaith/krakend:${VERSION} .
+	docker build -t aergo/krakend:${VERSION} .
 
 krakend_docker_alpine:
 	docker build -t devopsfaith/krakend:${VERSION}-alpine -f Dockerfile.alpine .

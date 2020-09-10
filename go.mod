@@ -75,6 +75,7 @@ require (
 	github.com/tmthrgd/go-popcount v0.0.0-20180111143836-3918361d3e97 // indirect
 	github.com/unrolled/secure v0.0.0-20171102162350-0f73fc7feba6 // indirect
 	github.com/xiang90/probing v0.0.0-20190116061207-43a291ad63a2 // indirect
-	golang.org/x/crypto v0.0.0-20190701094942-4def268fd1a4 // indirect
 	gopkg.in/Graylog2/go-gelf.v2 v2.0.0-20180326133423-4dbb9d721348 // indirect
 )
+
+replace github.com/devopsfaith/krakend v1.1.2-0.20200605160540-40b5d80a5807 => github.com/aergoio/krakend v1.1.2
