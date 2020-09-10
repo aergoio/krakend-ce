@@ -78,4 +78,4 @@ require (
 	gopkg.in/Graylog2/go-gelf.v2 v2.0.0-20180326133423-4dbb9d721348 // indirect
 )
 
-replace github.com/devopsfaith/krakend v1.1.2-0.20200605160540-40b5d80a5807 => github.com/aergoio/krakend v1.1.2
+replace github.com/devopsfaith/krakend v1.1.2-0.20200605160540-40b5d80a5807 => github.com/aergoio/krakend v1.1.2-0.20200910023146-426619745b51
